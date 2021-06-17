@@ -8,7 +8,7 @@ type saveCarUseCase struct {
 
 func NewSaveUserUseCase() saveCarUseCase {
 
-	cars := []models.Car{{1, "asd"}, {1, "asd"}, {1, "asd"}}
+	cars := []models.Car{{1, "asd", models.Model{1, "asd"}}, {1, "asd", models.Model{1, "asd"}}, {1, "asd", models.Model{1, "asd"}}}
 
 	return saveCarUseCase{cars}
 }
